@@ -1,0 +1,20 @@
+{
+  "name": "230322-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkDalJae/230322-nodejs.git"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkDalJae/230322-nodejs/issues"
+  },
+  "homepage": "https://github.com/ParkDalJae/230322-nodejs#readme"
+}
