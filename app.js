@@ -5,7 +5,7 @@ const textInBody = "안녕하세요"
 
 
 
-function bodyPage(script) {
+function bodyPage(script) {      //일단 동작에서 뺌
     return`
     <!DOCTYPE html>
     <html lang="en">
@@ -34,8 +34,11 @@ const newServerOnGreen = http.createServer((req,res)=>{
     if(req.url==='/'){
         url="/index.html"
     }
-    if(req.url==='/nextPage'){
+    if(req.url.startsWith('/nextPage')){
         url="/nextPage.html"
+    }
+    if(req.url.startsWith('/mainPage')){
+        url="/index.html"
     }
 
     if(req.url==='/favicon.ico'){
